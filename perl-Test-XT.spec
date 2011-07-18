@@ -1,9 +1,9 @@
 %define upstream_name    Test-XT
-%define upstream_version 0.02
+%define upstream_version 0.04
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Generate best practice author tests
 License:    GPL+ or Artistic
